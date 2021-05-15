@@ -8,6 +8,18 @@ credentials:
               id: slack-token
               secret: "${SLACK_TOKEN}"
               description: Slack token
+          - usernamePassword:
+              scope: GLOBAL
+              id: docker-ongoonku
+              username: "ongoonku"
+              password: "${DOCKER_ONGOONKU_PASSWORD}"
+              description: "Docker password for ongoonku"
+          - usernamePassword:
+              scope: GLOBAL
+              id: docker-blauwelucht
+              username: "blauwelucht"
+              password: "${DOCKER_BLAUWELUCHT_PASSWORD}"
+              description: "Docker password for ongoonku"
 
 unclassified:
   slackNotifier:
