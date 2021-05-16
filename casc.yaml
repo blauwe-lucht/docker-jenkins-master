@@ -19,7 +19,7 @@ credentials:
               id: docker-blauwelucht
               username: "blauwelucht"
               password: "${DOCKER_BLAUWELUCHT_PASSWORD}"
-              description: "Docker password for ongoonku"
+              description: "Docker password for blauwelucht"
 
 unclassified:
   slackNotifier:
