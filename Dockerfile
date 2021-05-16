@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.263.1-lts
+FROM jenkins/jenkins:2.277.4-lts
 
 RUN /usr/local/bin/install-plugins.sh \
 	git \
