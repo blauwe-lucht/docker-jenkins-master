@@ -22,5 +22,3 @@ COPY *.groovy /usr/share/jenkins/ref/init.groovy.d/
 # Point the plugin configuration-as-code to its configuration files.
 ENV CASC_JENKINS_CONFIG=/var/jenkins_home/casc_configs
 COPY casc.yaml /var/jenkins_home/casc_configs/
-
-VOLUME /var/jenkins_home
